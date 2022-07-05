@@ -22,3 +22,12 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.gallery{
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: calc(15px - 15px);
+  padding-right: calc(15px - 15px);
+  list-style: none;
+
+}
